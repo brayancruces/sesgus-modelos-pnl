@@ -1,0 +1,8 @@
+!pip install transformers==4.23.1
+!pip install numpy==1.21.6
+!wget https://users.dcc.uchile.cl/~jperez/beto/cased_2M/pytorch_weights.tar.gz 
+!wget https://users.dcc.uchile.cl/~jperez/beto/cased_2M/vocab.txt 
+!wget https://users.dcc.uchile.cl/~jperez/beto/cased_2M/config.json 
+!tar -xzvf pytorch_weights.tar.gz
+!mv config.json pytorch/.
+!mv vocab.txt pytorch/.
